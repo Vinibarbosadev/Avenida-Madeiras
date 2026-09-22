@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- =========================================================================
+       1. RESOURCE HINTS & PRE-CONNECTS (CARREGAMENTO CRÍTICO / ZERO LATÊNCIA)
+       ========================================================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- PRELOAD DO RECURSO CRÍTICO LCP (HERO IMAGE) -->
+  <link rel="preload" href="assets/img/hero/hero-main.svg" as="image" type="image/svg+xml" fetchpriority="high">
+  
+  <!-- =========================================================================
+       2. METADADOS PRIMÁRIOS DE SEO & LOCALIZAÇÃO (TAIOBEIRAS - MG)
+       ========================================================================= -->
+  <title>Avenida Madeiras | Madeiras e Materiais para Construção em Taiobeiras - MG</title>
+  <meta name="description" content="Madeiras selecionadas para estruturas, telhados, vigas, caibros, pranchas e acabamentos em Taiobeiras e Norte de Minas. Atendimento técnico e cotações ágeis.">
+  <meta name="keywords" content="madeireira em taiobeiras, madeiras taiobeiras mg, vigas para telhado, caibros, pranchas de madeira, construcao civil norte de minas">
+  <meta name="author" content="Avenida Madeiras">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://avenidamadeiras.com.br/">
+  
+  <!-- GEOTAGGING REGIONAL -->
+  <meta name="geo.region" content="BR-MG">
+  <meta name="geo.placename" content="Taiobeiras">
+  <meta name="geo.position" content="-15.8078;-42.2331">
+  <meta name="ICBM" content="-15.8078, -42.2331">
+  
+  <!-- =========================================================================
+       3. OPEN GRAPH PROTOCOL & TWITTER CARDS
+       ========================================================================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Avenida Madeiras">
+  <meta property="og:url" content="https://avenidamadeiras.com.br/">
+  <meta property="og:title" content="Avenida Madeiras | Soluções em Madeiras para Construção em Taiobeiras">
+  <meta property="og:description" content="Fornecimento completo em madeiras para telhados, vigas, pranchas e acabamentos em Taiobeiras e região com pronta-entrega.">
+  <meta property="og:image" content="https://avenidamadeiras.com.br/assets/img/hero/hero-main.svg">
+  <meta property="og:image:alt" content="Vigas e pranchas de madeira aparelhada da Avenida Madeiras em Taiobeiras MG">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Avenida Madeiras | Madeiras para Construção em Taiobeiras - MG">
+  <meta name="twitter:description" content="Vigamentos, caibros, pranchas e madeiras para acabamento com atendimento técnico e pronta-entrega.">
+  <meta name="twitter:image" content="https://avenidamadeiras.com.br/assets/img/hero/hero-main.svg">
+
+  <!-- =========================================================================
+       4. ICONS & WEB MANIFEST
+       ========================================================================= -->
+  <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#18191B">
+  
+  <!-- =========================================================================
+       5. GOOGLE FONTS COM SWAP NÃO-BLOQUEANTE (ZERO FOIT)
+       ========================================================================= -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+  
+  <!-- FOLHA DE ESTILOS MESTRE OTIMIZADA -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  
+  <!-- =========================================================================
+       6. DADOS ESTRUTURADOS SCHEMA.ORG (JSON-LD)
+       ========================================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "HomeAndConstructionBusiness",
+        "@id": "https://avenidamadeiras.com.br/#business",
+        "name": "Avenida Madeiras",
+        "url": "https://avenidamadeiras.com.br",
+        "logo": "https://avenidamadeiras.com.br/assets/img/brand/logo.svg",
+        "image": "https://avenidamadeiras.com.br/assets/img/hero/hero-main.svg",
+        "description": "Fornecimento de madeiras selecionadas para estruturas, coberturas, vigamentos, pranchas e acabamentos da construção civil em Taiobeiras e Norte de Minas Gerais.",
+        "telephone": "+55-38-99866-2894",
+        "email": "av.madeirasn1@gmail.com",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Bandeirantes, 757",
+          "addressLocality": "Taiobeiras",
+          "addressRegion": "MG",
+          "postalCode": "39550-000",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -15.8078,
+          "longitude": -42.2331
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Taiobeiras" },
+          { "@type": "AdministrativeArea", "name": "Norte de Minas Gerais" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "07:00",
+            "closes": "12:00"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Catálogo de Madeiras e Materiais para Construção",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Estruturas e Vigamentos Pesados",
+                "description": "Vigas maciças, esteios e barrotes para sustentação de estruturas e telhados."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Caibros e Ripas para Telhado",
+                "description": "Madeiramento selecionado e alinhado para coberturas coloniais, metálicas e concreto."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Tábuas, Pranchas e Fôrmas",
+                "description": "Madeiras para caixaria de concreto, andaimes e fechamento de canteiro."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Madeiras para Acabamento e Decks",
+                "description": "Peças aparelhadas para pérgolas, decks, forros e detalhes de arquitetura."
+              }
+            }
+          ]
+        },
+        "sameAs": [
+          "https://www.instagram.com/av_madeiras/",
+          "https://www.google.com/search?q=Avenida+Madeiras"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://avenidamadeiras.com.br/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://avenidamadeiras.com.br/"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://avenidamadeiras.com.br/#website",
+        "url": "https://avenidamadeiras.com.br",
+        "name": "Avenida Madeiras",
+        "publisher": {
+          "@id": "https://avenidamadeiras.com.br/#business"
+        },
+        "inLanguage": "pt-BR"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- LINK DE ACESSIBILIDADE DIRETA (WCAG 2.1 AA) -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- =========================================================================
+       01. HEADER INSTITUCIONAL (FIXO & RESPONSIVO)
+       ========================================================================= -->
+  <header class="header" role="banner">
+    <div class="container header__container">
+      
+      <!-- COMPONENTE LOGOTIPO OFICIAL (NOVA VERSÃO 3D) -->
+      <a href="/" class="c-logo" aria-label="Avenida Madeiras — Voltar para o início">
+        <img class="c-logo__image" src="assets/img/brand/logo.png" alt="Logotipo Avenida Madeiras" width="210" height="46" loading="eager" decoding="sync">
+      </a>
+
+      <!-- NAVEGAÇÃO DESKTOP CENTRAL -->
+      <nav class="nav-desktop" role="navigation" aria-label="Navegação principal do site">
+        <ul class="nav-desktop__list">
+          <li><a href="#inicio" class="nav-desktop__link is-active">Início</a></li>
+          <li><a href="#produtos" class="nav-desktop__link">Produtos</a></li>
+          <li><a href="#aplicacoes" class="nav-desktop__link">Aplicações</a></li>
+          <li><a href="#diferenciais" class="nav-desktop__link">Diferenciais</a></li>
+          <li><a href="#sobre" class="nav-desktop__link">Sobre</a></li>
+          <li><a href="#contato" class="nav-desktop__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- AÇÃO DIREITA (DESKTOP) -->
+      <div class="header__actions">
+        <a href="#orcamento" class="btn btn-primary btn-sm">Solicitar Orçamento</a>
+      </div>
+
+      <!-- BOTÃO MENU HAMBÚRGUER (MOBILE) -->
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Abrir menu de navegação">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- BACKDROP DO MENU MOBILE -->
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+
+  <!-- DRAWER / MENU FULLSCREEN MOBILE -->
+  <aside id="mobile-navigation" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Menu de navegação móvel" aria-hidden="true">
+    
+    <div class="mobile-drawer__header">
+      <a href="/" class="c-logo" aria-label="Avenida Madeiras">
+        <img class="c-logo__image" src="assets/img/brand/logo.png" alt="Logotipo Avenida Madeiras" width="180" height="40" loading="lazy" decoding="async">
+      </a>
+      <button type="button" class="mobile-drawer__close" aria-label="Fechar menu de navegação móvel">
+        &times;
+      </button>
+    </div>
+
+    <nav class="mobile-drawer__nav" aria-label="Links de navegação móvel">
+      <ul class="mobile-drawer__list">
+        <li><a href="#inicio" class="mobile-drawer__link">Início <span aria-hidden="true">→</span></a></li>
+        <li><a href="#produtos" class="mobile-drawer__link">Produtos &amp; Categorias <span aria-hidden="true">→</span></a></li>
+        <li><a href="#aplicacoes" class="mobile-drawer__link">Aplicações Construtivas <span aria-hidden="true">→</span></a></li>
+        <li><a href="#diferenciais" class="mobile-drawer__link">Nossos Diferenciais <span aria-hidden="true">→</span></a></li>
+        <li><a href="#sobre" class="mobile-drawer__link">Sobre a Empresa <span aria-hidden="true">→</span></a></li>
+        <li><a href="#instagram" class="mobile-drawer__link">Instagram @av_madeiras <span aria-hidden="true">→</span></a></li>
+        <li><a href="#contato" class="mobile-drawer__link">Canais de Contato <span aria-hidden="true">→</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-drawer__footer">
+      <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20com%20a%20equipe%20da%20Avenida%20Madeiras." 
+         class="btn btn-whatsapp btn-block"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Solicitar orçamento pelo WhatsApp (38) 99866-2894">
+        Solicitar Orçamento no WhatsApp
+      </a>
+      <div class="mobile-drawer__info">
+        <strong>Atendimento em Taiobeiras e Região</strong>
+        <span>Seg a Sex: 07:00 às 18:00 • Sáb: 07:00 às 12:00</span>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- =========================================================================
+       ÁREA DE CONTEÚDO PRINCIPAL (MAIN CONTENT)
+       ========================================================================= -->
+  <main id="main-content" tabindex="-1">
+    
+    <!-- =======================================================================
+         02. HERO SECTION (OTIMIZADA PARA LCP < 1.2S)
+         ======================================================================= -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__grid">
+          
+          <div class="hero__content reveal-item">
+            <div class="hero__eyebrow">
+              Taiobeiras &amp; Norte de Minas Gerais
+            </div>
+
+            <h1 id="hero-title" class="hero__title">
+              Madeiras selecionadas e materiais para quem constrói com exigência.
+            </h1>
+
+            <p class="hero__subtitle">
+              Fornecimento estruturado para telhados, vigamentos, fôrmas e acabamentos. Atendemos construtores, marceneiros, engenheiros e clientes residenciais com atendimento técnico e pronta-entrega em Taiobeiras e região.
+            </p>
+
+            <div class="hero__actions">
+              <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20madeiras%20para%20minha%20obra%20em%20Taiobeiras." 
+                 class="btn btn-whatsapp btn-lg" 
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Solicitar orçamento pelo WhatsApp (38) 99866-2894">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                Solicitar Orçamento no WhatsApp
+              </a>
+
+              <a href="#produtos" class="btn btn-secondary btn-lg">
+                Conhecer Linha de Materiais ↓
+              </a>
+            </div>
+
+            <div class="hero__trust" role="list" aria-label="Garantias de fornecimento">
+              <div class="hero__trust-item" role="listitem">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Bitolas padronizadas</span>
+              </div>
+
+              <div class="hero__trust-item" role="listitem">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Atendimento consultivo</span>
+              </div>
+
+              <div class="hero__trust-item" role="listitem">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Logística e canteiro</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- IMAGEM LCP COM FETCHPRIORITY="HIGH" E LOADING="EAGER" -->
+          <div class="hero__visual reveal-item delay-2">
+            <div class="hero__image-wrapper">
+              <img src="assets/img/hero/hero-main.svg" 
+                   alt="Vigas maciças e pranchas de madeira para telhados e estruturas em Taiobeiras" 
+                   class="hero__image" 
+                   width="1200" 
+                   height="1500" 
+                   loading="eager" 
+                   fetchpriority="high"
+                   decoding="sync">
+
+              <div class="hero__image-overlay" aria-hidden="true"></div>
+
+              <div class="hero__caption" aria-hidden="true">
+                <div>
+                  <span class="hero__caption-text">Pranchas e Vigamentos Selecionados</span>
+                  <span class="hero__caption-sub">Madeira Maciça para Estruturas</span>
+                </div>
+                <span class="hero__caption-badge">Pronta-Entrega</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         03. APRESENTAÇÃO / MANIFESTO TÉCNICO
+         ======================================================================= -->
+    <section class="section section-manifesto" aria-labelledby="manifesto-title">
+      <div class="container">
+        
+        <div class="manifesto__header reveal-item">
+          <span class="kicker">COMPROMISSO COM A MATÉRIA-PRIMA</span>
+          <h2 id="manifesto-title" class="manifesto__title">
+            Na obra, a qualidade da madeira é o que garante a estabilidade do projeto.
+          </h2>
+          <p class="manifesto__lead">
+            Quem está no canteiro de obras sabe o custo de uma madeira torta, com umidade inadequada ou fora da bitola combinada: o resultado é retrabalho, perda de tempo e prejuízo. Na Avenida Madeiras, selecionamos nossos lotes para entregar alinhamento, resistência mecânica e durabilidade real.
+          </p>
+        </div>
+
+        <div class="manifesto__grid">
+          <div class="manifesto__item reveal-item delay-1">
+            <span class="manifesto__num">01 / PADRONIZAÇÃO</span>
+            <h3 class="manifesto__item-title">Bitolas Precisas</h3>
+            <p class="manifesto__item-text">
+              Peças conferidas milimetricamente para evitar cortes e ajustes forçados no canteiro de obras.
+            </p>
+          </div>
+
+          <div class="manifesto__item reveal-item delay-2">
+            <span class="manifesto__num">02 / AGILIDADE</span>
+            <h3 class="manifesto__item-title">Pronta-Entrega</h3>
+            <p class="manifesto__item-text">
+              Estoque organizado para abastecimento rápido, garantindo que seu cronograma não fique parado.
+            </p>
+          </div>
+
+          <div class="manifesto__item reveal-item delay-3">
+            <span class="manifesto__num">03 / PROCEDÊNCIA</span>
+            <h3 class="manifesto__item-title">Seleção Confiável</h3>
+            <p class="manifesto__item-text">
+              Fornecimento transparente com matéria-prima de origem regular e resistência mecânica comprovada.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         04. CATEGORIAS DE FORNECIMENTO (LAZY LOADED & ASYNC DECODED)
+         ======================================================================= -->
+    <section id="produtos" class="section section-categories" aria-labelledby="categories-title">
+      <div class="container">
+        
+        <div class="section-head section-head--split reveal-item">
+          <div>
+            <span class="kicker">PORTFÓLIO DE MATERIAIS</span>
+            <h2 id="categories-title" class="section-head__title">
+              Soluções em madeira para cada etapa da construção
+            </h2>
+          </div>
+          <p class="section-head__desc">
+            Do madeiramento bruto para estrutura e caixaria aos materiais selecionados para coberturas e acabamento.
+          </p>
+        </div>
+
+        <div class="categories__grid">
+          
+          <article class="category-tile reveal-item delay-1">
+            <div class="category-tile__media">
+              <img src="assets/img/categories/cat-estruturas.svg" 
+                   alt="Vigas estruturais e esteios pesados de madeira maciça em Taiobeiras" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="category-tile__content">
+              <div>
+                <span class="category-tile__tag">Estruturas</span>
+                <h3 class="category-tile__title">Vigamentos &amp; Peças Pesadas</h3>
+                <p class="category-tile__desc">
+                  Peças robustas para sustentação, vigas, esteios e barrotes com alta resistência para suporte de cargas.
+                </p>
+              </div>
+              <a href="#orcamento" class="category-tile__link" data-subject="Estruturas e Vigamentos" aria-label="Consultar bitolas disponíveis para Vigamentos e Peças Pesadas">
+                Consultar bitolas disponíveis <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-tile reveal-item delay-2">
+            <div class="category-tile__media">
+              <img src="assets/img/categories/cat-coberturas.svg" 
+                   alt="Caibros e ripas de madeira alinhada para telhados e coberturas em Taiobeiras MG" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="category-tile__content">
+              <div>
+                <span class="category-tile__tag">Coberturas</span>
+                <h3 class="category-tile__title">Caibros, Ripas &amp; Telhados</h3>
+                <p class="category-tile__desc">
+                  Madeiramento alinhado para telhados coloniais, metálicos e telhas de concreto com encaixe preciso.
+                </p>
+              </div>
+              <a href="#orcamento" class="category-tile__link" data-subject="Madeiramento para Telhado" aria-label="Consultar madeiramento de telhados">
+                Consultar madeiramento <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-tile reveal-item delay-3">
+            <div class="category-tile__media">
+              <img src="assets/img/categories/cat-pranchas.svg" 
+                   alt="Pranchas e tábuas brutas e aparelhadas para formas de concreto e andaimes" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="category-tile__content">
+              <div>
+                <span class="category-tile__tag">Canteiro</span>
+                <h3 class="category-tile__title">Pranchas, Tábuas &amp; Fôrmas</h3>
+                <p class="category-tile__desc">
+                  Madeiras para caixaria de concreto, andaimes, tapumes e fechamentos de canteiro com alto rendimento.
+                </p>
+              </div>
+              <a href="#orcamento" class="category-tile__link" data-subject="Tábuas e Fôrmas" aria-label="Consultar tábuas e fôrmas de concreto">
+                Consultar tábuas e fôrmas <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-tile reveal-item delay-4">
+            <div class="category-tile__media">
+              <img src="assets/img/categories/cat-acabamentos.svg" 
+                   alt="Madeiras nobres aparelhadas para decks, pergolados e forros em Taiobeiras" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="category-tile__content">
+              <div>
+                <span class="category-tile__tag">Acabamento</span>
+                <h3 class="category-tile__title">Áreas Externas &amp; Decks</h3>
+                <p class="category-tile__desc">
+                  Peças aparelhadas para pérgolas, decks, forros e detalhes de marcenaria e arquitetura contemporânea.
+                </p>
+              </div>
+              <a href="#orcamento" class="category-tile__link" data-subject="Acabamentos e Decks" aria-label="Consultar opções de acabamento e decks">
+                Consultar acabamentos <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         05. PRODUTOS & BITOLAS (CATÁLOGO CONSULTIVO)
+         ======================================================================= -->
+    <section class="section section-products" aria-labelledby="products-title">
+      <div class="container">
+        
+        <div class="section-head reveal-item">
+          <span class="kicker">ESPECIFICAÇÕES SOB CONSULTA</span>
+          <h2 id="products-title" class="section-head__title">
+            Cortes, bitolas e materiais sob medida para seu pedido
+          </h2>
+          <p class="section-head__desc">
+            Trabalhamos com estoque de medidas usuais de mercado e também atendemos listas personalizadas conforme o projeto estrutural.
+          </p>
+        </div>
+
+        <div class="products__layout">
+          
+          <div class="spec-table-container reveal-item" tabindex="0" role="region" aria-label="Tabela de especificações de bitolas e cortes de madeira (use as setas para rolar horizontalmente se necessário)">
+            <table class="spec-table">
+              <caption class="sr-only">Relação de especificações, bitolas usuais e disponibilidade de estoque</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Material / Corte</th>
+                  <th scope="col">Aplicação Principal</th>
+                  <th scope="col">Disponibilidade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Vigas e Vigamentos Estruturais</strong>
+                    <span>Diversas bitolas e comprimentos</span>
+                  </td>
+                  <td>Sustentação pesada e vãos livres</td>
+                  <td><span class="spec-table__status">Pronta-entrega / Encomenda</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Caibros, Ripas e Pontaletes</strong>
+                    <span>Alinhados e padronizados</span>
+                  </td>
+                  <td>Escoramento e armação de telhados</td>
+                  <td><span class="spec-table__status">Estoque regular</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Tábuas e Sarrafos</strong>
+                    <span>Opções brutas e aparelhadas</span>
+                  </td>
+                  <td>Fôrmas, andaimes e pisos provisórios</td>
+                  <td><span class="spec-table__status">Estoque regular</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Mourões e Estacas</strong>
+                    <span>Alta densidade e resistência</span>
+                  </td>
+                  <td>Cercamentos rurais e contenções</td>
+                  <td><span class="spec-table__status">Sob consulta</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Madeiras Especiais &amp; Nobres</strong>
+                    <span>Cortes aparelhados e secos</span>
+                  </td>
+                  <td>Pergolados, decks e detalhes finos</td>
+                  <td><span class="spec-table__status">Sob encomenda</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <aside class="products__action-box reveal-item delay-2" aria-label="Envio de lista de material">
+            <span class="products__action-badge">AGILIDADE DE ATENDIMENTO</span>
+            <h3 class="products__action-title">Já tem a lista de materiais em mãos?</h3>
+            <p class="products__action-text">
+              Envie a relação de peças e medidas pelo WhatsApp ou utilize nosso formulário. Nossa equipe calcula o quantitativo e responde com o orçamento discriminado.
+            </p>
+
+            <div class="products__action-features">
+              <div class="products__action-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Conferência de quantitativos</span>
+              </div>
+              <div class="products__action-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Cálculo sem compromisso</span>
+              </div>
+            </div>
+
+            <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20tenho%20uma%20lista%20de%20pe%C3%A7as%20e%20bitolas%20para%20cotar%20na%20Avenida%20Madeiras." 
+               class="btn btn-whatsapp btn-block"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Enviar lista de peças pelo WhatsApp (38) 99866-2894">
+              Enviar Lista de Peças no WhatsApp
+            </a>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         06. APLICAÇÕES PRÁTICAS (DA FUNDAÇÃO AO ACABAMENTO)
+         ======================================================================= -->
+    <section id="aplicacoes" class="section section-applications" aria-labelledby="applications-title">
+      <div class="container">
+        
+        <div class="section-head section-head--split reveal-item">
+          <div>
+            <span class="kicker">ONDE NOSSOS MATERIAIS SÃO USADOS</span>
+            <h2 id="applications-title" class="section-head__title">
+              Da base da estrutura aos detalhes do projeto
+            </h2>
+          </div>
+          <p class="section-head__desc">
+            Soluções técnicas que unem a resistência mecânica necessária ao acabamento visual desejado.
+          </p>
+        </div>
+
+        <div class="applications__grid">
+          
+          <article class="app-tile reveal-item delay-1">
+            <img src="assets/img/applications/app-telhados.svg" 
+                 alt="Estruturas de telhados residenciais e comerciais em madeira de alta densidade" 
+                 class="app-tile__image" 
+                 width="500"
+                 height="625"
+                 loading="lazy"
+                 decoding="async">
+            <div class="app-tile__overlay" aria-hidden="true"></div>
+            <div class="app-tile__content">
+              <span class="app-tile__num">01 / COBERTURAS</span>
+              <h3 class="app-tile__title">Telhados &amp; Coberturas</h3>
+              <p class="app-tile__desc">
+                Estruturas que exigem madeira firme, reta e com suporte contínuo ao longo dos anos.
+              </p>
+            </div>
+          </article>
+
+          <article class="app-tile reveal-item delay-2">
+            <img src="assets/img/applications/app-pergolados.svg" 
+                 alt="Pergolados de madeira aparente para varandas e áreas externas em Taiobeiras" 
+                 class="app-tile__image" 
+                 width="500"
+                 height="625"
+                 loading="lazy"
+                 decoding="async">
+            <div class="app-tile__overlay" aria-hidden="true"></div>
+            <div class="app-tile__content">
+              <span class="app-tile__num">02 / ÁREAS EXTERNAS</span>
+              <h3 class="app-tile__title">Pergolados &amp; Varandas</h3>
+              <p class="app-tile__desc">
+                A madeira como elemento de destaque visual em fachadas e áreas de convivência.
+              </p>
+            </div>
+          </article>
+
+          <article class="app-tile reveal-item delay-3">
+            <img src="assets/img/applications/app-formas.svg" 
+                 alt="Caixaria de concreto e formas de madeira para canteiro de obras" 
+                 class="app-tile__image" 
+                 width="500"
+                 height="625"
+                 loading="lazy"
+                 decoding="async">
+            <div class="app-tile__overlay" aria-hidden="true"></div>
+            <div class="app-tile__content">
+              <span class="app-tile__num">03 / ESTRUTURA CINZA</span>
+              <h3 class="app-tile__title">Canteiro &amp; Fôrmas</h3>
+              <p class="app-tile__desc">
+                Tábuas e escoras resistentes que garantem a segurança durante a concretagem e fundação.
+              </p>
+            </div>
+          </article>
+
+          <article class="app-tile reveal-item delay-4">
+            <img src="assets/img/applications/app-marcenaria.svg" 
+                 alt="Madeiras selecionadas para marcenaria e peças especiais de mobiliário" 
+                 class="app-tile__image" 
+                 width="500"
+                 height="625"
+                 loading="lazy"
+                 decoding="async">
+            <div class="app-tile__overlay" aria-hidden="true"></div>
+            <div class="app-tile__content">
+              <span class="app-tile__num">04 / MARCENARIA</span>
+              <h3 class="app-tile__title">Projetos Especiais</h3>
+              <p class="app-tile__desc">
+                Peças prontas para corte de marceneiros que buscam estabilidade e textura nobre.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         07. DIFERENCIAIS DA AVENIDA MADEIRAS
+         ======================================================================= -->
+    <section id="diferenciais" class="section section-differentials" aria-labelledby="differentials-title">
+      <div class="container">
+        
+        <div class="section-head reveal-item">
+          <span class="kicker">CRITÉRIOS DE TRABALHO</span>
+          <h2 id="differentials-title" class="section-head__title">
+            O que muda quando você compra com quem entende de madeira
+          </h2>
+          <p class="section-head__desc">
+            Critérios rigorosos do atendimento ao descarregamento no canteiro de obras em Taiobeiras e região.
+          </p>
+        </div>
+
+        <div class="differentials__grid">
+          
+          <div class="diff-card reveal-item delay-1">
+            <div class="diff-card__header">
+              <span class="diff-card__num">01</span>
+              <svg class="diff-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="diff-card__title">Conferência Rigorosa de Bitola</h3>
+            <p class="diff-card__desc">
+              Você recebe exatamente a medida que comprou, sem surpresas na espessura que comprometam a obra.
+            </p>
+          </div>
+
+          <div class="diff-card reveal-item delay-2">
+            <div class="diff-card__header">
+              <span class="diff-card__num">02</span>
+              <svg class="diff-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="diff-card__title">Agilidade e Carga Protegida</h3>
+            <p class="diff-card__desc">
+              Logística organizada para que o material chegue ao canteiro de obras dentro do cronograma combinado.
+            </p>
+          </div>
+
+          <div class="diff-card reveal-item delay-3">
+            <div class="diff-card__header">
+              <span class="diff-card__num">03</span>
+              <svg class="diff-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="diff-card__title">Apoio na Quantificação</h3>
+            <p class="diff-card__desc">
+              Auxiliamos na conferência do seu cálculo para evitar sobras excessivas ou falta de peças no telhado.
+            </p>
+          </div>
+
+          <div class="diff-card reveal-item delay-4">
+            <div class="diff-card__header">
+              <span class="diff-card__num">04</span>
+              <svg class="diff-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="diff-card__title">Procedência e Clareza Comercial</h3>
+            <p class="diff-card__desc">
+              Orçamentos detalhados, negociação direta e compromisso com fornecimento regular e transparente.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         08. SOBRE A EMPRESA (RAÍZES & IDENTIDADE LOCAL)
+         ======================================================================= -->
+    <section id="sobre" class="section section-about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__grid">
+          
+          <div class="about__visual reveal-item">
+            <div class="about__image-frame">
+              <img src="assets/img/about/about-patio.svg" 
+                   alt="Pátio de armazenamento e depósito de madeiras da Avenida Madeiras em Taiobeiras MG" 
+                   class="about__image" 
+                   width="800" 
+                   height="800" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+          </div>
+
+          <div class="about__content reveal-item delay-2">
+            <span class="kicker about__kicker">NOSSA HISTÓRIA EM TAIOBEIRAS</span>
+            <h2 id="about-title" class="about__title">
+              Tradição de atendimento e solidez no Norte de Minas
+            </h2>
+            <p class="about__text">
+              A Avenida Madeiras é uma empresa estabelecida em Taiobeiras, nascida para suprir a construção civil da nossa região com materiais de qualidade consistente e atendimento sério.
+            </p>
+            <p class="about__text">
+              Conhecemos o dia a dia de quem constrói e reforma: sabemos que cada etapa da obra exige pontualidade e material confiável. Nosso depósito une variedade de estoque, equipe pronta para orientar e uma relação de parceria de longo prazo com mestres de obras, carpinteiros e construtores.
+            </p>
+
+            <div class="about__points">
+              <div class="about__point-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Atendimento direto e sem burocracia</span>
+              </div>
+              <div class="about__point-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Conhecimento prático das exigências climáticas regionais</span>
+              </div>
+              <div class="about__point-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Respeito rigoroso aos prazos e especificações combinadas</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         09. PROJETOS & INSPIRAÇÕES
+         ======================================================================= -->
+    <section id="projetos" class="section section-projects" aria-labelledby="projects-section-title">
+      <div class="container">
+        
+        <div class="section-head section-head--split reveal-item">
+          <div>
+            <span class="kicker">RESULTADOS REAIS</span>
+            <h2 id="projects-section-title" class="section-head__title">
+              Obras e estruturas que contam com nossos materiais
+            </h2>
+          </div>
+          <p class="section-head__desc">
+            Aplicações práticas de madeiras fornecidas pela Avenida Madeiras em construções residenciais, comerciais e rurais em Taiobeiras e região.
+          </p>
+        </div>
+
+        <div class="projects__grid">
+          
+          <article class="project-card reveal-item delay-1">
+            <div class="project-card__media">
+              <img src="assets/img/projects/proj-01.svg" 
+                   alt="Cobertura residencial com vigas de madeira aparente fornecidas em Taiobeiras" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Residencial</span>
+              <h3 class="project-card__title">Cobertura com Vigamento Aparente</h3>
+              <p class="project-card__desc">
+                Sustentação de telhado com acabamento à vista e madeiramento alinhado.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card reveal-item delay-2">
+            <div class="project-card__media">
+              <img src="assets/img/projects/proj-02.svg" 
+                   alt="Pergolado de madeira tratada para área gourmet e lazer em Taiobeiras" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Área Gourmet</span>
+              <h3 class="project-card__title">Pergolado e Espaço Externo</h3>
+              <p class="project-card__desc">
+                Madeiras aparelhadas selecionadas para valorização de área de convivência.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card reveal-item delay-3">
+            <div class="project-card__media">
+              <img src="assets/img/projects/proj-03.svg" 
+                   alt="Estrutura de telhado de grande vão com vigas pesadas de madeira" 
+                   width="600" 
+                   height="375" 
+                   loading="lazy"
+                   decoding="async">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Estrutural</span>
+              <h3 class="project-card__title">Madeiramento para Grandes Vãos</h3>
+              <p class="project-card__desc">
+                Dimensionamento de bitolas pesadas para suporte e resistência contínua.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         10. INSTAGRAM INTEGRADO (@av_madeiras)
+         ======================================================================= -->
+    <section id="instagram" class="section section-instagram" aria-labelledby="instagram-title">
+      <div class="container">
+        
+        <div class="instagram__head reveal-item">
+          <div>
+            <span class="kicker">ROTINA &amp; BASTIDORES</span>
+            <h2 id="instagram-title" class="section-head__title">
+              Acompanhe a Avenida Madeiras no Instagram
+            </h2>
+            <p class="section-head__desc">
+              Fique por dentro das novidades do pátio, chegada de lotes e o dia a dia da empresa em Taiobeiras.
+            </p>
+          </div>
+
+          <a href="https://www.instagram.com/av_madeiras/" 
+             class="instagram__handle" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Abrir perfil oficial @av_madeiras no Instagram (abre em nova aba)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span>@av_madeiras ↗</span>
+          </a>
+        </div>
+
+        <div class="instagram__grid">
+          
+          <a href="https://www.instagram.com/av_madeiras/" 
+             class="instagram-tile reveal-item delay-1" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Ver fotos de lotes de madeira no Instagram da Avenida Madeiras">
+            <img src="assets/img/instagram/insta-01.svg" 
+                 alt="Novos lotes de vigamentos e pranchas de madeira em Taiobeiras" 
+                 class="instagram-tile__image" 
+                 width="400"
+                 height="400"
+                 loading="lazy"
+                 decoding="async">
+            <div class="instagram-tile__overlay" aria-hidden="true">
+              <svg class="instagram-tile__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span class="instagram-tile__label">Ver no Instagram</span>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/av_madeiras/" 
+             class="instagram-tile reveal-item delay-2" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Ver rotina de medição de bitolas de madeira no Instagram">
+            <img src="assets/img/instagram/insta-02.svg" 
+                 alt="Conferência de bitolas e esquadro de madeira no pátio em Taiobeiras" 
+                 class="instagram-tile__image" 
+                 width="400"
+                 height="400"
+                 loading="lazy"
+                 decoding="async">
+            <div class="instagram-tile__overlay" aria-hidden="true">
+              <svg class="instagram-tile__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span class="instagram-tile__label">Ver no Instagram</span>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/av_madeiras/" 
+             class="instagram-tile reveal-item delay-3" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Ver entregas de materiais em obras no Instagram">
+            <img src="assets/img/instagram/insta-03.svg" 
+                 alt="Transporte e entrega de madeiras no canteiro de obras em Taiobeiras e região" 
+                 class="instagram-tile__image" 
+                 width="400"
+                 height="400"
+                 loading="lazy"
+                 decoding="async">
+            <div class="instagram-tile__overlay" aria-hidden="true">
+              <svg class="instagram-tile__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span class="instagram-tile__label">Ver no Instagram</span>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/av_madeiras/" 
+             class="instagram-tile reveal-item delay-4" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Ver detalhes de acabamentos em madeira no Instagram">
+            <img src="assets/img/instagram/insta-04.svg" 
+                 alt="Madeiras nobres para acabamentos e painéis arquitetônicos" 
+                 class="instagram-tile__image" 
+                 width="400"
+                 height="400"
+                 loading="lazy"
+                 decoding="async">
+            <div class="instagram-tile__overlay" aria-hidden="true">
+              <svg class="instagram-tile__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span class="instagram-tile__label">Ver no Instagram</span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         11. CTA FINAL & FORMULÁRIO DE ORÇAMENTO
+         ======================================================================= -->
+    <section id="orcamento" class="section section-contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__grid">
+          
+          <div class="contact__info reveal-item">
+            <span class="kicker contact__kicker">ORÇAMENTO RÁPIDO &amp; ATENDIMENTO</span>
+            <h2 id="contact-heading" class="contact__title">
+              Vamos planejar o fornecimento para a sua obra?
+            </h2>
+            <p class="contact__lead">
+              Seja para cotar uma lista completa de telhado ou suprir materiais para reforma, nossa equipe técnica está pronta para orientar seu pedido em Taiobeiras e região.
+            </p>
+
+            <address class="contact__channels" id="contato" style="font-style: normal;">
+              
+              <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20comercial%20na%20Avenida%20Madeiras." 
+                 class="contact-channel contact-channel--whatsapp"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Chamar no WhatsApp Comercial (38) 99866-2894">
+                <div class="contact-channel__icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-channel__label">WhatsApp Comercial</span>
+                  <span class="contact-channel__val">(38) 99866-2894</span>
+                </div>
+              </a>
+
+              <a href="tel:5538998662894" 
+                 class="contact-channel"
+                 aria-label="Ligar para o Telefone (38) 99866-2894">
+                <div class="contact-channel__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-channel__label">Telefone / Atendimento</span>
+                  <span class="contact-channel__val">(38) 99866-2894</span>
+                </div>
+              </a>
+
+              <a href="mailto:av.madeirasn1@gmail.com" 
+                 class="contact-channel"
+                 aria-label="Enviar E-mail Comercial para av.madeirasn1@gmail.com">
+                <div class="contact-channel__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-channel__label">E-mail Comercial</span>
+                  <span class="contact-channel__val">av.madeirasn1@gmail.com</span>
+                </div>
+              </a>
+
+            </address>
+
+            <p style="font-size: var(--text-xs); color: #BDBAB2; line-height: 1.6;">
+              <strong>Horário de Atendimento:</strong> Seg. a Sex. das 07:00 às 18:00 • Sábado das 07:00 às 12:00 (Domingo: Fechado)<br>
+              <strong>Endereço:</strong> Av. Bandeirantes, 757 — Taiobeiras, MG (CEP: 39550-000)
+            </p>
+          </div>
+
+          <div class="contact-form-card reveal-item delay-2">
+            
+            <div class="contact-form-card__head">
+              <h3 class="contact-form-card__title">Solicitação de Cotação</h3>
+              <p class="contact-form-card__desc">Preencha os dados abaixo para receber um retorno técnico da nossa equipe.</p>
+            </div>
+
+            <div id="form-success-banner" class="form-success-banner" tabindex="-1" role="alert" aria-live="polite">
+              <div class="form-success-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h4 class="form-success-title">Mensagem Enviada com Sucesso!</h4>
+              <p class="form-success-desc">
+                Recebemos sua solicitação. Nossa equipe técnica entrará em contato via WhatsApp ou telefone em breve com seu orçamento.
+              </p>
+            </div>
+
+            <form id="budget-form" class="form-grid" novalidate>
+              
+              <div class="form-field">
+                <label for="form-name">Nome Completo *</label>
+                <input type="text" 
+                       id="form-name" 
+                       class="form-control" 
+                       placeholder="Seu nome ou empresa" 
+                       autocomplete="name" 
+                       required 
+                       aria-required="true" 
+                       aria-invalid="false" 
+                       aria-describedby="form-name-error">
+                <span id="form-name-error" class="form-error-msg" aria-live="polite"></span>
+              </div>
+
+              <div class="grid form-grid-2" style="gap: var(--space-4);">
+                <div class="form-field">
+                  <label for="form-phone">Telefone / WhatsApp *</label>
+                  <input type="tel" 
+                         id="form-phone" 
+                         class="form-control" 
+                         placeholder="(38) 99999-9999" 
+                         autocomplete="tel" 
+                         required 
+                         aria-required="true" 
+                         aria-invalid="false" 
+                         aria-describedby="form-phone-error">
+                  <span id="form-phone-error" class="form-error-msg" aria-live="polite"></span>
+                </div>
+
+                <div class="form-field">
+                  <label for="form-email">E-mail</label>
+                  <input type="email" 
+                         id="form-email" 
+                         class="form-control" 
+                         placeholder="seuemail@exemplo.com" 
+                         autocomplete="email" 
+                         aria-invalid="false" 
+                         aria-describedby="form-email-error">
+                  <span id="form-email-error" class="form-error-msg" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="form-subject">Assunto / Categoria *</label>
+                <select id="form-subject" 
+                        class="form-control" 
+                        required 
+                        aria-required="true" 
+                        aria-invalid="false" 
+                        aria-describedby="form-subject-error" 
+                        style="cursor: pointer;">
+                  <option value="" disabled selected>Selecione a necessidade da obra</option>
+                  <option value="Estruturas e Vigamentos">Estruturas e Vigamentos Pesados</option>
+                  <option value="Madeiramento para Telhado">Madeiramento para Telhado / Cobertura</option>
+                  <option value="Tábuas e Fôrmas">Tábuas, Pranchas e Fôrmas de Canteiro</option>
+                  <option value="Acabamentos e Decks">Acabamentos, Pergolados e Decks</option>
+                  <option value="Lista de Materiais Geral">Cotação de Lista de Materiais Completa</option>
+                  <option value="Outros">Outras Dúvidas Comerciais</option>
+                </select>
+                <span id="form-subject-error" class="form-error-msg" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="form-message">Detalhes do Pedido ou Medidas *</label>
+                <textarea id="form-message" 
+                          class="form-control" 
+                          placeholder="Descreva as bitolas, medidas ou envie a relação de peças que você precisa..." 
+                          required 
+                          aria-required="true" 
+                          aria-invalid="false" 
+                          aria-describedby="form-message-error"></textarea>
+                <span id="form-message-error" class="form-error-msg" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary btn-block btn-lg" style="margin-top: var(--space-2);">
+                Solicitar Orçamento
+              </button>
+
+              <span class="form-helper text-center" style="font-size: 0.6875rem; color: var(--color-muted); margin-top: var(--space-2);">
+                Seus dados serão utilizados estritamente para o envio da cotação solicitada.
+              </span>
+
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         12. GOOGLE MAPS & LOCALIZAÇÃO (LAZY EMBED)
+         ======================================================================= -->
+    <section class="section section-map" aria-labelledby="map-title">
+      <div class="container">
+        
+        <div class="map-header reveal-item">
+          <div>
+            <span class="kicker">COMO CHEGAR</span>
+            <h2 id="map-title" class="section-head__title">
+              Visite nosso depósito e pátio em Taiobeiras
+            </h2>
+            <p class="section-head__desc">
+              Localização de fácil acesso para carregamento e conferência de materiais. Av. Bandeirantes, 757, Taiobeiras — MG (CEP: 39550-000).
+            </p>
+          </div>
+
+          <div class="flex gap-4">
+            <a href="https://maps.google.com/?q=Av.+Bandeirantes,+757,+Taiobeiras+-+MG,+39550-000" 
+               class="btn btn-secondary btn-sm" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               aria-label="Abrir rota para a Avenida Madeiras no Google Maps">
+              Abrir no Google Maps ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="map-container">
+        <div class="map-card-badge">
+          <strong>Avenida Madeiras</strong>
+          <span>Av. Bandeirantes, 757</span>
+          <span style="color: var(--color-accent); font-weight: 600; margin-top: 4px;">Taiobeiras — Minas Gerais</span>
+        </div>
+
+        <iframe 
+          title="Localização da Avenida Madeiras na Av. Bandeirantes, 757 em Taiobeiras, MG"
+          src="https://maps.google.com/maps?q=Av.+Bandeirantes,+757,+Taiobeiras+-+MG&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+          width="100%"
+          height="100%"
+          loading="lazy" 
+          allowfullscreen 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================================
+       13. FOOTER INSTITUCIONAL COMPLETO
+       ========================================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer__grid">
+        
+        <div class="reveal-item">
+          <a href="/" class="c-logo c-logo--inverted" aria-label="Avenida Madeiras — Página Inicial">
+            <img class="c-logo__image" src="assets/img/brand/logo-white.png" alt="Logotipo Avenida Madeiras" width="210" height="46" loading="lazy" decoding="async">
+          </a>
+          <p style="font-size: var(--text-sm); color: #BDBAB2; margin-top: var(--space-4); max-width: 320px; line-height: var(--leading-normal);">
+            Madeiras selecionadas e soluções para a construção civil, coberturas, vigamentos e acabamentos no Norte de Minas.
+          </p>
+        </div>
+
+        <div class="reveal-item delay-1">
+          <h3 class="footer__col-title">Navegação</h3>
+          <ul class="footer__links">
+            <li><a href="#inicio" class="footer__link">Início</a></li>
+            <li><a href="#produtos" class="footer__link">Categorias &amp; Bitolas</a></li>
+            <li><a href="#aplicacoes" class="footer__link">Aplicações Construtivas</a></li>
+            <li><a href="#diferenciais" class="footer__link">Nossos Diferenciais</a></li>
+            <li><a href="#sobre" class="footer__link">Sobre a Empresa</a></li>
+            <li><a href="#projetos" class="footer__link">Projetos &amp; Obras</a></li>
+          </ul>
+        </div>
+
+        <div class="reveal-item delay-2">
+          <h3 class="footer__col-title">Atendimento</h3>
+          <address style="font-style: normal;">
+            <div class="footer__info-item">
+              <strong>WhatsApp Comercial</strong>
+              <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20comercial%20na%20Avenida%20Madeiras." class="footer__link" target="_blank" rel="noopener noreferrer">
+                (38) 99866-2894 ↗
+              </a>
+            </div>
+            <div class="footer__info-item">
+              <strong>Telefone</strong>
+              <a href="tel:5538998662894" class="footer__link">
+                (38) 99866-2894
+              </a>
+            </div>
+            <div class="footer__info-item">
+              <strong>E-mail</strong>
+              <a href="mailto:av.madeirasn1@gmail.com" class="footer__link">
+                av.madeirasn1@gmail.com
+              </a>
+            </div>
+            <div class="footer__info-item">
+              <strong>Horário</strong>
+              <span>Seg a Sex: 07:00 às 18:00<br>Sábado: 07:00 às 12:00</span>
+            </div>
+          </address>
+        </div>
+
+        <div class="reveal-item delay-3">
+          <h3 class="footer__col-title">Endereço &amp; Social</h3>
+          <address style="font-style: normal;">
+            <div class="footer__info-item">
+              <strong>Localização</strong>
+              <span>Av. Bandeirantes, 757<br>Taiobeiras — MG, 39550-000</span>
+            </div>
+            <div class="footer__info-item">
+              <strong>Instagram Oficial</strong>
+              <a href="https://www.instagram.com/av_madeiras/" class="footer__link" target="_blank" rel="noopener noreferrer">
+                @av_madeiras ↗
+              </a>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2026 Avenida Madeiras. Todos os direitos reservados. CNPJ: 39.675.740/0001-63
+        </p>
+        <div class="footer__legal-links">
+          <span>Taiobeiras — Minas Gerais, Brasil</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- =========================================================================
+       14. WIDGET FLUTUANTE DE WHATSAPP
+       ========================================================================= -->
+  <a href="https://wa.me/5538998662894?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Avenida%20Madeiras%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." 
+     class="floating-whatsapp" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Fale conosco agora pelo WhatsApp (38) 99866-2894">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+    <span>Orçamento via WhatsApp</span>
+  </a>
+
+  <!-- =========================================================================
+       15. SCRIPTS MODULARES (CARREGADOS ASSINCRONAMENTE DE FORMA NÃO-BLOQUEANTE)
+       ========================================================================= -->
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

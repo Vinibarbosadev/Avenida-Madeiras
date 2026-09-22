@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="gi1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3D42"/>
+      <stop offset="100%" stop-color="#141517"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#gi1)"/>
+  <!-- Pilha de pranchas aparelhadas no pátio -->
+  <rect x="50" y="100" width="300" height="25" fill="#B07246" rx="2"/>
+  <rect x="50" y="135" width="300" height="25" fill="#91562F" rx="2"/>
+  <rect x="50" y="170" width="300" height="25" fill="#7B4722" rx="2"/>
+  <rect x="50" y="205" width="300" height="25" fill="#5C3417" rx="2"/>
+  <rect x="50" y="240" width="300" height="25" fill="#43220C" rx="2"/>
+  <text x="30" y="45" fill="#F8F7F4" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="1">@av_madeiras</text>
+  <text x="30" y="360" fill="#A09D96" font-family="'Inter', sans-serif" font-size="11">Chegada de novos lotes</text>
+</svg>

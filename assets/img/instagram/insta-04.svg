@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="gi4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3035"/>
+      <stop offset="100%" stop-color="#18191B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#gi4)"/>
+  <!-- Madeira aparelhada para áreas nobres -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="26" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="52" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="78" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="104" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="130" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="156" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="182" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="208" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="234" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+    <rect x="260" y="0" width="16" height="180" fill="#D49463" rx="1"/>
+  </g>
+  <text x="30" y="45" fill="#F8F7F4" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="1">@av_madeiras</text>
+  <text x="30" y="360" fill="#A09D96" font-family="'Inter', sans-serif" font-size="11">Madeiras para acabamentos</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="600" height="375">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3D42"/>
+      <stop offset="100%" stop-color="#18191B"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A56A3E"/>
+      <stop offset="50%" stop-color="#8D5B36"/>
+      <stop offset="100%" stop-color="#6E4327"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#g1)"/>
+  <!-- Vigas estruturais empilhadas em perspectiva -->
+  <polygon points="100,320 220,160 520,160 400,320" fill="url(#w1)"/>
+  <polygon points="220,160 520,160 520,110 220,110" fill="#B87B4D"/>
+  <polygon points="100,320 100,270 220,110 220,160" fill="#5C351D"/>
+  
+  <polygon points="150,260 270,100 570,100 450,260" fill="url(#w1)" opacity="0.9"/>
+  <polygon points="270,100 570,100 570,60 270,60" fill="#C58756"/>
+  <polygon points="150,260 150,220 270,60 270,100" fill="#4D2A14"/>
+
+  <text x="30" y="45" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" letter-spacing="2">ESTRUTURAS &amp; VIGAMENTOS</text>
+  <text x="30" y="65" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">Vigas maciças, esteios e barrotes</text>
+</svg>

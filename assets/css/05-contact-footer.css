@@ -1,0 +1,506 @@
+/* ==========================================================================
+   05-CONTACT-FOOTER.CSS — CTA Final, Formulário, Mapa e Footer (Auditado)
+   ========================================================================== */
+
+/* ==========================================================================
+   1. SEÇÃO CTA FINAL & FORMULÁRIO DE CONTATO
+   ========================================================================== */
+.section-contact {
+  background-color: var(--color-primary);
+  color: #F8F7F4;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--color-border-dark);
+  width: 100%;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  align-items: start;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .contact__grid {
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--space-16);
+  }
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact__kicker {
+  color: var(--color-accent-on-dark);
+}
+
+.contact__title {
+  color: #FFFFFF;
+  font-size: clamp(1.625rem, 4vw, 2.75rem);
+  line-height: 1.16;
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.contact__lead {
+  color: #A09D96;
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .contact__lead {
+    margin-bottom: var(--space-8);
+  }
+}
+
+/* Cards de Canais de Atendimento */
+.contact__channels {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .contact__channels {
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+  }
+}
+
+.contact-channel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-sm);
+  transition: all var(--duration-fast) var(--ease-standard);
+  text-decoration: none;
+  color: #F8F7F4;
+  min-height: 48px;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .contact-channel {
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+  }
+}
+
+.contact-channel:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(4px);
+}
+
+.contact-channel__icon {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(141, 91, 54, 0.2);
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.contact-channel--whatsapp .contact-channel__icon {
+  background-color: rgba(30, 126, 69, 0.25);
+  color: #25D366;
+}
+
+.contact-channel__label {
+  font-family: var(--font-family-display);
+  font-size: 0.6875rem;
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: #A09D96;
+  display: block;
+}
+
+.contact-channel__val {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: #FFFFFF;
+}
+
+@media (min-width: 640px) {
+  .contact-channel__val {
+    font-size: var(--text-base);
+  }
+}
+
+/* 2. CARD DO FORMULÁRIO DE ORÇAMENTO */
+.contact-form-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-float);
+  color: var(--color-text);
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .contact-form-card {
+    padding: var(--space-8);
+  }
+}
+
+.contact-form-card__head {
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact-form-card__title {
+  font-size: var(--text-lg);
+  color: var(--color-primary);
+  margin-bottom: var(--space-1);
+}
+
+@media (min-width: 640px) {
+  .contact-form-card__title {
+    font-size: var(--text-xl);
+  }
+}
+
+.contact-form-card__desc {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin-bottom: 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .form-grid {
+    gap: var(--space-4);
+  }
+  .form-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-field label {
+  font-family: var(--font-family-display);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-primary);
+  margin-bottom: var(--space-1);
+}
+
+.form-control {
+  width: 100%;
+  height: 48px; /* Altura de toque ideal */
+  padding: 0 var(--space-4);
+  background-color: #FAF9F7;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  font-size: 16px; /* Evita zoom no Safari mobile */
+  color: var(--color-primary);
+  transition: all var(--duration-fast) var(--ease-standard);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 100px;
+  padding: var(--space-3) var(--space-4);
+  resize: vertical;
+}
+
+.form-control:focus {
+  background-color: #FFFFFF;
+  border-color: var(--color-accent);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-accent-light);
+}
+
+.form-field.has-error .form-control {
+  border-color: var(--color-error);
+  background-color: #FFF8F7;
+}
+
+.form-error-msg {
+  display: none;
+  font-size: var(--text-xs);
+  color: var(--color-error);
+  margin-top: 4px;
+}
+
+.form-field.has-error .form-error-msg {
+  display: block;
+}
+
+/* Feedback de Sucesso */
+.form-success-banner {
+  display: none;
+  background-color: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  border-radius: var(--radius-sm);
+  padding: var(--space-6);
+  text-align: center;
+  color: var(--color-success);
+}
+
+.form-success-banner.is-visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.form-success-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #DCFCE7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-success);
+  margin-bottom: var(--space-1);
+}
+
+.form-success-title {
+  font-family: var(--font-family-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  color: #14532D;
+}
+
+.form-success-desc {
+  font-size: var(--text-xs);
+  color: #166534;
+  max-width: 420px;
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+   3. SEÇÃO GOOGLE MAPS & LOCALIZAÇÃO
+   ========================================================================== */
+.section-map {
+  background-color: var(--color-bg);
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.map-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: var(--space-6);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .map-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+  }
+}
+
+.map-container {
+  width: 100%;
+  height: 320px;
+  background-color: var(--color-surface-subdued);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .map-container {
+    height: 420px;
+  }
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.map-card-badge {
+  position: absolute;
+  top: var(--space-4);
+  left: var(--space-4);
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3) var(--space-4);
+  box-shadow: var(--shadow-hover);
+  max-width: 280px;
+  z-index: 10;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .map-card-badge {
+    display: block;
+    top: var(--space-6);
+    left: var(--space-6);
+    max-width: 320px;
+    padding: var(--space-4) var(--space-5);
+  }
+}
+
+.map-card-badge strong {
+  font-family: var(--font-family-display);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.map-card-badge span {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  display: block;
+}
+
+
+/* ==========================================================================
+   4. FOOTER INSTITUCIONAL COMPLETO
+   ========================================================================== */
+.footer {
+  background-color: var(--color-primary);
+  color: #A09D96;
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-8);
+  border-top: 1px solid var(--color-border-dark);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: var(--space-16);
+  }
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  margin-bottom: var(--space-10);
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__grid {
+    grid-template-columns: 1.5fr 1fr 1.2fr 1fr;
+    gap: var(--space-8);
+    margin-bottom: var(--space-16);
+  }
+}
+
+.footer__col-title {
+  font-family: var(--font-family-display);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: var(--space-3);
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.footer__link {
+  font-size: var(--text-sm);
+  color: #A09D96;
+  min-height: 38px; /* Touch target ampliado */
+  display: inline-flex;
+  align-items: center;
+  transition: color var(--duration-fast) var(--ease-standard),
+              transform var(--duration-fast) var(--ease-standard);
+  text-decoration: none;
+}
+
+.footer__link:hover,
+.footer__link:focus-visible {
+  color: var(--color-accent-on-dark);
+  transform: translateX(2px);
+}
+
+.footer__info-item {
+  font-size: var(--text-sm);
+  color: #BDBAB2;
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-3);
+}
+
+.footer__info-item strong {
+  color: #FFFFFF;
+  display: block;
+  font-family: var(--font-family-display);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+}
+
+.footer__bottom {
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-border-dark);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  font-size: var(--text-xs);
+  color: #BDBAB2; /* Contraste 8.5:1 no fundo titânio (WCAG AAA) */
+}
+
+@media (min-width: 768px) {
+  .footer__bottom {
+    padding-top: var(--space-8);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-4);
+  }
+}
+
+.footer__copyright {
+  margin-bottom: 0;
+}

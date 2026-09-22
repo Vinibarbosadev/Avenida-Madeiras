@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="600" height="375">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#33373B"/>
+      <stop offset="100%" stop-color="#121315"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#g3)"/>
+  <!-- Pranchas alinhadas horizontalmente -->
+  <rect x="60" y="110" width="480" height="35" rx="2" fill="#B07246"/>
+  <rect x="60" y="155" width="480" height="35" rx="2" fill="#91562F"/>
+  <rect x="60" y="200" width="480" height="35" rx="2" fill="#7B4722"/>
+  <rect x="60" y="245" width="480" height="35" rx="2" fill="#603416"/>
+  <rect x="60" y="290" width="480" height="35" rx="2" fill="#4A260E"/>
+  
+  <!-- Linhas de topo/veios -->
+  <line x1="60" y1="120" x2="540" y2="120" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="60" y1="165" x2="540" y2="165" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <text x="30" y="45" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" letter-spacing="2">PRANCHAS, TÁBUAS &amp; FÔRMAS</text>
+  <text x="30" y="65" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">Caixaria de concreto, andaimes e tapumes</text>
+</svg>

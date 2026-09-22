@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 625" width="500" height="625">
+  <defs>
+    <linearGradient id="gApp2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#213229"/>
+      <stop offset="100%" stop-color="#0E1713"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="625" fill="url(#gApp2)"/>
+  <!-- Pergolado em perspectiva com vigas cruzadas -->
+  <line x1="80" y1="580" x2="80" y2="220" stroke="#8D5B36" stroke-width="20" stroke-linecap="square"/>
+  <line x1="420" y1="580" x2="420" y2="220" stroke="#8D5B36" stroke-width="20" stroke-linecap="square"/>
+  <line x1="40" y1="220" x2="460" y2="220" stroke="#B07246" stroke-width="22" stroke-linecap="square"/>
+  
+  <!-- Travessas superiores do pergolado -->
+  <line x1="60" y1="180" x2="140" y2="120" stroke="#C58557" stroke-width="12"/>
+  <line x1="140" y1="180" x2="220" y2="120" stroke="#C58557" stroke-width="12"/>
+  <line x1="220" y1="180" x2="300" y2="120" stroke="#C58557" stroke-width="12"/>
+  <line x1="300" y1="180" x2="380" y2="120" stroke="#C58557" stroke-width="12"/>
+  <line x1="380" y1="180" x2="460" y2="120" stroke="#C58557" stroke-width="12"/>
+
+  <text x="40" y="60" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" letter-spacing="2">02 • PERGOLADOS</text>
+  <text x="40" y="85" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="12">Áreas Gourmet e Externas</text>
+</svg>

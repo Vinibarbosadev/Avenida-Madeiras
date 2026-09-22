@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 625" width="500" height="625">
+  <defs>
+    <linearGradient id="gApp3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#35383D"/>
+      <stop offset="100%" stop-color="#18191B"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="625" fill="url(#gApp3)"/>
+  <!-- Fôrmas e travamentos de caixaria de concreto -->
+  <rect x="100" y="160" width="300" height="380" fill="none" stroke="#8D5B36" stroke-width="12"/>
+  <line x1="100" y1="220" x2="400" y2="220" stroke="#B07246" stroke-width="6"/>
+  <line x1="100" y1="280" x2="400" y2="280" stroke="#B07246" stroke-width="6"/>
+  <line x1="100" y1="340" x2="400" y2="340" stroke="#B07246" stroke-width="6"/>
+  <line x1="100" y1="400" x2="400" y2="400" stroke="#B07246" stroke-width="6"/>
+  <line x1="100" y1="460" x2="400" y2="460" stroke="#B07246" stroke-width="6"/>
+  
+  <!-- Escoramento diagonal de travamento -->
+  <line x1="60" y1="540" x2="250" y2="300" stroke="#C58557" stroke-width="10"/>
+  <line x1="440" y1="540" x2="250" y2="300" stroke="#C58557" stroke-width="10"/>
+
+  <text x="40" y="60" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" letter-spacing="2">03 • FÔRMAS E CANTEIRO</text>
+  <text x="40" y="85" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="12">Caixaria, Andaimes e Concretagem</text>
+</svg>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# SITEMAP OFICIAL
+Sitemap: https://avenidamadeiras.com.br/sitemap.xml

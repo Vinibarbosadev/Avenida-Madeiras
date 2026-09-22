@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="600" height="375">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#213229"/>
+      <stop offset="100%" stop-color="#141F1A"/>
+    </linearGradient>
+    <linearGradient id="deck" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D49463"/>
+      <stop offset="100%" stop-color="#8A5129"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#g4)"/>
+  <!-- Ripado fino vertical de acabamento contemporâneo -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="34" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="68" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="102" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="136" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="170" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="204" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="238" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="272" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="306" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="340" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="374" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="408" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+    <rect x="442" y="0" width="22" height="230" rx="1" fill="url(#deck)"/>
+  </g>
+
+  <text x="30" y="45" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" letter-spacing="2">ACABAMENTO &amp; ÁREAS EXTERNAS</text>
+  <text x="30" y="65" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">Decks, pergolados, forros e detalhes de arquitetura</text>
+</svg>

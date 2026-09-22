@@ -1,0 +1,117 @@
+/* ==========================================================================
+   06-MOTION.CSS — Microinterações & Coreografia de Movimento de Alto Padrão
+   ==========================================================================
+   Filosofia de Motion:
+   - Aceleração natural: cubic-bezier(0.16, 1, 0.3, 1) [easeOutExpo]
+   - Propriedades aceleradas por GPU: opacity e transform
+   - Deslocamento vertical mínimo (12px), evitando saltos bruscos
+   - Respeito integral à diretiva WCAG: prefers-reduced-motion
+   ========================================================================== */
+
+/* 1. SISTEMA DE SCROLL REVEAL (ENTRADA SUAVE DE SEÇÕES E ITENS) */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-item.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Escalonamento Sutil (Stagger Delays) */
+.delay-1 { transition-delay: 80ms; }
+.delay-2 { transition-delay: 160ms; }
+.delay-3 { transition-delay: 240ms; }
+.delay-4 { transition-delay: 320ms; }
+
+/* 2. TRANSIÇÕES EM LINKS E SETAS DE NAVEGAÇÃO */
+.category-tile__link,
+.mobile-drawer__link,
+.footer__link {
+  transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.category-tile__link span,
+.mobile-drawer__link span {
+  display: inline-block;
+  transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.category-tile:hover .category-tile__link span,
+.mobile-drawer__link:hover span {
+  transform: translateX(3px);
+}
+
+/* 3. ELEVAÇÃO TÁTIL DE BOTÕES (SEM BOUNCE) */
+.btn {
+  transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 150ms cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn:active {
+  transform: scale(0.985);
+}
+
+/* 4. TRANSIÇÃO DE FOTOGRAFIAS E CARDS (ZOOM ÓTICO 1.025) */
+.card__media img,
+.hero__image,
+.category-tile__media img,
+.app-tile__image,
+.about__image,
+.project-card__media img,
+.instagram-tile__image {
+  transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+/* 5. MICRO-PULSO EM INDICADORES DE STATUS (RESPIRAÇÃO SUAVE DE 3S) */
+.spec-table__status::before,
+.hero__eyebrow::before {
+  animation: subtlePulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+}
+
+/* 6. TRANSIÇÕES DE FORMULÁRIO E FEEDBACK */
+.form-control {
+  transition: border-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* 7. PREFERS-REDUCED-MOTION (ACESSIBILIDADE RIGOROSA) */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-item,
+  .btn,
+  .card__media img,
+  .hero__image,
+  .category-tile__media img,
+  .app-tile__image,
+  .about__image,
+  .project-card__media img,
+  .instagram-tile__image,
+  .spec-table__status::before,
+  .hero__eyebrow::before {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+

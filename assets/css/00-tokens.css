@@ -1,0 +1,127 @@
+:root {
+  /* ==========================================================================
+     AVENIDA MADEIRAS — DESIGN SYSTEM V1 (DESIGN TOKENS)
+     ========================================================================== */
+
+  /* 1. PALETA DE CORES (COLOR TOKENS) */
+  --color-bg: #F8F7F4;                 /* Canvas principal (Off-white mineral) */
+  --color-surface: #FFFFFF;            /* Fundo de cards, painéis e formulários */
+  --color-surface-subdued: #EFECE6;    /* Fundo neutro secundário de respiro */
+  
+  --color-primary: #18191B;            /* Grafite Titânio para títulos e alto contraste */
+  --color-secondary: #213229;          /* Verde Galho Profundo (Institucional Nobre) */
+  --color-text: #2B2D31;               /* Corpo de texto principal */
+  --color-muted: #66696D;              /* Textos secundários, legendas e metadados */
+  
+  --color-border: #E5E2DB;             /* Linhas arquitetônicas de 1px */
+  --color-border-hover: #C5C1B6;       /* Linhas ativas / hover */
+  --color-border-dark: #323539;        /* Linhas divisórias em seções escuras */
+  
+  --color-accent: #8D5B36;             /* Madeira Nobre (Cumaru / Ipê) */
+  --color-accent-hover: #734727;       /* Madeira escurecida no hover */
+  --color-accent-light: #F4ECE6;       /* Fundo suave com tom de madeira */
+  --color-accent-on-dark: #E2B088;     /* Madeira clara calibrada para alto contraste em fundos escuros (> 7:1) */
+  
+  --color-cta-whatsapp: #1E7E45;       /* Verde WhatsApp calibrado comercial */
+  --color-cta-whatsapp-hover: #176337; /* Verde WhatsApp hover */
+  
+  --color-success: #2E6B47;            /* Confirmação e disponibilidade */
+  --color-error: #9E332B;              /* Validações e erros (Contraste > 5.5:1) */
+  
+  /* Cores em formato RGB para manipulação de opacidade via rgba() */
+  --color-primary-rgb: 24, 25, 27;
+  --color-bg-rgb: 248, 247, 244;
+  --color-accent-rgb: 141, 91, 54;
+  --color-secondary-rgb: 33, 50, 41;
+
+  /* 2. TIPOGRAFIA (TYPOGRAPHY TOKENS) */
+  --font-family-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+
+  /* Escala de tamanhos tipográficos (Font Sizes) */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.8125rem;    /* 13px */
+  --text-base: 0.9375rem;  /* 15px */
+  --text-md: 1rem;         /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 1.875rem;    /* 30px */
+  --text-4xl: 2.25rem;     /* 36px */
+  --text-5xl: 2.75rem;     /* 44px */
+  --text-6xl: 3.5rem;      /* 56px */
+
+  /* Pesos tipográficos (Font Weights) */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Alturas de linha (Line Heights) */
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-normal: 1.6;
+  --leading-loose: 1.8;
+
+  /* Espaçamento entre letras (Letter Spacing) */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.04em;
+  --tracking-widest: 0.14em;
+
+  /* 3. ESCALA DE ESPAÇAMENTO (SPACING SCALE) */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+
+  /* 4. LAYOUT & CONTAINERS */
+  --container-max-width: 1240px;
+  --container-narrow-width: 840px;
+  --container-padding: var(--space-6);
+
+  /* 5. RAIOS DE BORDA (BORDER RADIUS) */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;     /* Raio padrão de botões, cards e molduras */
+  --radius-md: 6px;
+  --radius-full: 9999px; /* Raio exclusivo do botão flutuante e pílulas */
+
+  /* 6. ELEVAÇÕES & SOMBRAS DISCRETAS */
+  --shadow-border: 0 0 0 1px var(--color-border);
+  --shadow-low: 0 2px 4px rgba(var(--color-primary-rgb), 0.03), 0 0 0 1px var(--color-border);
+  --shadow-hover: 0 8px 20px -4px rgba(var(--color-primary-rgb), 0.07), 0 0 0 1px var(--color-border-hover);
+  --shadow-float: 0 10px 30px -5px rgba(var(--color-primary-rgb), 0.12);
+
+  /* 7. TRANSIÇÕES & ANIMAÇÕES SUTIS */
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1); /* easeOutExpo */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* 8. NÍVEIS DE CAMADA (Z-INDEX) */
+  --z-base: 1;
+  --z-card-hover: 10;
+  --z-header: 100;
+  --z-floating-cta: 150;
+  --z-modal: 200;
+  --z-toast: 300;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: var(--space-8);
+  }
+}
+

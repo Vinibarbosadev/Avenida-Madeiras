@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://avenidamadeiras.com.br/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://avenidamadeiras.com.br/assets/img/hero/hero-main.svg</image:loc>
+      <image:title>Avenida Madeiras — Fornecimento de Madeiras para Construção em Taiobeiras MG</image:title>
+      <image:caption>Vigamentos, caibros, pranchas e madeiras para telhados e acabamento em Taiobeiras e Norte de Minas</image:caption>
+    </image:image>
+  </url>
+</urlset>

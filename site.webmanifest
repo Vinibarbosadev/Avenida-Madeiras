@@ -1,0 +1,17 @@
+{
+  "name": "Avenida Madeiras",
+  "short_name": "Av. Madeiras",
+  "description": "Madeiras selecionadas e materiais para construção civil em Taiobeiras - MG.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F7F4",
+  "theme_color": "#18191B",
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

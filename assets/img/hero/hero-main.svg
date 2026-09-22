@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500">
+  <defs>
+    <!-- Gradiente de Iluminação Natural de Canteiro/Galpão -->
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C2F33" />
+      <stop offset="60%" stop-color="#1A1C1E" />
+      <stop offset="100%" stop-color="#101113" />
+    </linearGradient>
+
+    <!-- Tom de Madeira Nobre Maciça (Cumaru / Ipê / Garapeira) -->
+    <linearGradient id="wood1" x1="0%" y1="30%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#B07246" />
+      <stop offset="35%" stop-color="#91562F" />
+      <stop offset="70%" stop-color="#6F3F1E" />
+      <stop offset="100%" stop-color="#4F2B13" />
+    </linearGradient>
+
+    <linearGradient id="wood2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C58557" />
+      <stop offset="50%" stop-color="#9D6137" />
+      <stop offset="100%" stop-color="#5C3417" />
+    </linearGradient>
+
+    <!-- Textura Linear de Fibras e Veios -->
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="120" y2="22" stroke="rgba(0,0,0,0.12)" stroke-width="1.5"/>
+      <line x1="0" y1="45" x2="120" y2="44" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <line x1="0" y1="75" x2="120" y2="78" stroke="rgba(0,0,0,0.15)" stroke-width="1.8"/>
+      <line x1="0" y1="105" x2="120" y2="103" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Fundo Arquitetônico com Luz Difusa -->
+  <rect width="1200" height="1500" fill="url(#bgLight)"/>
+
+  <!-- Estrutura de Vigamentos e Pranchas Alinhadas (Fotografia Conceitual) -->
+  <!-- Viga 1 (Fundo) -->
+  <polygon points="150,1500 150,500 550,150 550,1500" fill="url(#wood1)" />
+  <rect x="150" y="500" width="400" height="1000" fill="url(#grain)" opacity="0.7"/>
+
+  <!-- Topo da Viga (Corte Transversal / Anéis) -->
+  <polygon points="150,500 550,150 950,350 550,700" fill="url(#wood2)" />
+  <ellipse cx="550" cy="425" rx="180" ry="90" fill="none" stroke="rgba(0,0,0,0.25)" stroke-width="2"/>
+  <ellipse cx="550" cy="425" rx="120" ry="60" fill="none" stroke="rgba(0,0,0,0.2)" stroke-width="2"/>
+  <ellipse cx="550" cy="425" rx="60" ry="30" fill="none" stroke="rgba(0,0,0,0.18)" stroke-width="2"/>
+
+  <!-- Viga 2 (Primeiro Plano com Chanfro e Esquadro) -->
+  <polygon points="450,1500 450,680 980,450 980,1500" fill="url(#wood2)" />
+  <rect x="450" y="680" width="530" height="820" fill="url(#grain)" opacity="0.8"/>
+
+  <!-- Iluminação Lateral e Sombras de Esquadro -->
+  <polygon points="450,680 980,450 980,520 450,750" fill="rgba(255,255,255,0.15)" />
+  <line x1="450" y1="680" x2="450" y2="1500" stroke="rgba(0,0,0,0.4)" stroke-width="4"/>
+
+  <!-- Linhas Guia e Detalhe Técnico de Engenharia -->
+  <line x1="80" y1="80" x2="1120" y2="80" stroke="rgba(229,226,219,0.1)" stroke-width="1" stroke-dasharray="8 8"/>
+  <line x1="80" y1="80" x2="80" y2="1420" stroke="rgba(229,226,219,0.1)" stroke-width="1" stroke-dasharray="8 8"/>
+  
+  <text x="120" y="140" fill="#E5E2DB" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="600" letter-spacing="4" opacity="0.6">AVENIDA MADEIRAS • MATÉRIA-PRIMA</text>
+  <text x="120" y="175" fill="#8D5B36" font-family="'Inter', sans-serif" font-size="16" letter-spacing="2" opacity="0.9">VIGAMENTOS E PRANCHAS SELECIONADAS — TAIOBEIRAS/MG</text>
+</svg>
