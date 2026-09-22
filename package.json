@@ -1,0 +1,9 @@
+{
+  "name": "avenida-madeiras",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website Oficial Avenida Madeiras - Taiobeiras MG",
+  "scripts": {
+    "build": "echo 'Static site ready'"
+  }
+}
